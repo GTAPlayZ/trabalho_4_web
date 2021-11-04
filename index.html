@@ -5,8 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Sion Solutions, empresa de software">
-    <meta name="keywords" content="sion solutions, sion, solutions, software">
+    <meta name="abstract" content="Sion Solutions, empresa de software"/>
+    <meta name="keywords" content="sion solutions, sion, solutions, software, ERP, sistemas, empresas, solução">
     <meta name="author" content="Alexandre, Matheus, Vinicius">
+    <meta name="robots" content="all" />
+    <meta name="rating" content="general" />
+    <meta name="distribution" content="global" />
+    <meta name="language" content="pt-br" />
+    <meta property="locale" content="pt-br"/>
+    <meta name="content-language" content="portuguese" />
     <title>Sion Solutions</title>
     <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
     <link
@@ -19,20 +26,19 @@
   <body>
     <header id="header">
       <nav class="container">
-        <a class="logo" href="#">
+        <a class="logo" href="#" aria-label="Logo">
           <img
             src="./assets/images/logo_marca_final.png"
             alt="Sion Solutions"
-            loading="lazy"
           />
         </a>
         <div class="menu">
           <ul class="grid">
-            <li><a class="title" href="#inicio">Início</a></li>
-            <li><a class="title" href="#sobre">Sobre</a></li>
-            <li><a class="title" href="#servicos">Serviços</a></li>
-            <li><a class="title" href="#portfolio">Portfólio</a></li>
-            <li><a class="title" href="#contato">Contato</a></li>
+            <li><a class="title" aria-label="Início" href="#inicio">Início</a></li>
+            <li><a class="title" aria-label="Sobre" href="#sobre">Sobre</a></li>
+            <li><a class="title" aria-label="Serviços" href="#servicos">Serviços</a></li>
+            <li><a class="title" aria-label="Portfólio" href="#portfolio">Portfólio</a></li>
+            <li><a class="title" aria-label="Contato" href="#contato">Contato</a></li>
           </ul>
         </div>
         <div class="toggle icon-menu"><i class="fa fa-bars" aria-hidden="true"></i></div>
@@ -48,7 +54,6 @@
             <img
               src="assets/images/home.jpg"
               alt="demonstração do sistema"
-              loading="lazy"
               width="100%"
               height="100%"
             />
@@ -61,6 +66,7 @@
             <a href="https://api.whatsapp.com/send?phone=+5548999999999&text=Olá! Gostaria de agendar um horário para visita."
             class="button"
             target="_blank"
+            aria-label="Entrar em contato"
             rel="noreferrer">Entrar em contato</a>
           </div>
         </div>
@@ -75,7 +81,6 @@
             <img
               src="assets/images/sobre.jpg"
               alt="equipe trabalhando"
-              loading="lazy"
               width="100%"
               height="100%"
             />
@@ -160,7 +165,6 @@
                     <img
                       src="assets/images/beard-ga605f647e_640.jpg"
                       alt="Foto de Wagner Souza"
-                      loading="lazy"
                     />
                     Wagner Souza
                   </cite>
@@ -177,7 +181,6 @@
                     <img
                       src="assets/images/portrait-g32df91940_640.jpg"
                       alt="Foto de Franciele Maria"
-                      loading="lazy"
                     />
                     Franciele Maria
                   </cite>
@@ -194,7 +197,6 @@
                     <img
                       src="assets/images/smile-ga0ff50a1b_640.jpg"
                       alt="Fotos de Barbara Abreu"
-                      loading="lazy"
                     />
                     Barbara Abreu
                   </cite>
@@ -223,8 +225,8 @@
               class="button"
               target="_blank"
               rel="noreferrer"
-              >Entrar em contato</a
-            >
+              aria-label="Entrar em contato"
+              >Entrar em contato</a>
           </div>
 
           <div class="links">
@@ -243,11 +245,10 @@
     <footer class="section">
       <div class="container grid">
         <div class="brand">
-          <a class="logo logo-alt" href="#inicio">
+          <a class="logo logo-alt" href="#inicio" aria-label="Logo">
             <img
               src="./assets/images/logo_marca_final.png"
               alt="Sion Solutions"
-              loading="lazy"
             />
           </a>
           <p>©2021 Sion Solutions.</p>
@@ -255,26 +256,26 @@
         </div>
 
         <div class="social grid">
-          <a href="https://instagram.com" target="_blank">
+          <a href="https://instagram.com" target="_blank" aria-label="Instagram" rel="noreferrer">
             <i class="fa fa-instagram" aria-hidden="true"></i>
           </a>
-          <a href="https://facebook.com" target="_blank">
+          <a href="https://facebook.com" target="_blank" aria-label="Facebook" rel="noreferrer">
             <i class="fa fa-facebook" aria-hidden="true"></i>
           </a>
-          <a href="https://youtube.com" target="_blank">
+          <a href="https://youtube.com" target="_blank" aria-label="Youtube" rel="noreferrer">
               <i class="fa fa-youtube" aria-hidden="true"></i>
             </a>
         </div>
       </div>
     </footer>
 
-    <a href="#inicio" class="back-to-top">
+    <a href="#inicio" class="back-to-top" aria-label="Voltar para o topo">
       <i class="fa fa-angle-up" aria-hidden="true"></i>
     </a>
 
     <!-- javascripts -->
-    <script src="./assets/plugins/swiper-7.2.0/swiper-bundle.min.js"></script>
-    <script src="./assets/plugins/scrollreveal-4.0.9/scrollreveal.min.js"></script>
-    <script src="./assets/js/index.js"></script>
+    <script async src="./assets/plugins/swiper-7.2.0/swiper-bundle.min.js"></script>
+    <script async src="./assets/plugins/scrollreveal-4.0.9/scrollreveal.min.js"></script>
+    <script defer src="./assets/js/index.js"></script>
   </body>
 </html>
